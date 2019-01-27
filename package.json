@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal online portfolio of E.T. Craig",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ETCraig/E.T.Craig-Portfolio.git"
+  },
+  "author": "E. T. Craig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ETCraig/E.T.Craig-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ETCraig/E.T.Craig-Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
