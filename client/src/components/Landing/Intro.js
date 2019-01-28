@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import SoftImg from '../../assets/2257d41e69aa53b.jpg'
-
 const Inntro = styled.div`
     height: 1000px;
     display: block;
