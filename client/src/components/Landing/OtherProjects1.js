@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 
 import EmployeeManager from './OtherOne/EmployeeManager';
+import GumAssistant from './OtherOne/GymAssistant';
+import GymAssistant from './OtherOne/GymAssistant';
 
 const LatestWrapper = styled.div`
     padding-top: 20px;
@@ -24,6 +26,7 @@ class OtherProjects1 extends Component {
         return(
             <LatestWrapper>
                 <EmployeeManager />
+                <GymAssistant />
             </LatestWrapper>
         );
     }

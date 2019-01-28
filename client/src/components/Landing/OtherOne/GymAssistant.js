@@ -1,19 +1,19 @@
 import React from 'react';
+
+import GymAssistantPng from '../../../assets/Screenshot (129).png';
 import styled from 'styled-components';
 
-import EmployeeManagerPng from '../../../assets/Screenshot (128).png';
-
-const EmployeeManagerWrapper = styled.div`
-    padding: 12px; 
+const GymAssistantWrapper = styled.div`
+    padding: 12px;
     flex-grow: 0;
-    max-width: 50%;
-    flex-basis: 50%;
+    max-width: 25%;
+    flex-basis: 25%;
     margin: 0;
     box-sizing: border-box;
     display: block;
 `;
 
-const EmployeeManagerInnerWrapper = styled.div`
+const GymAssistantInnerWrapper = styled.div`
     width: 100%;
     max-width: 100%;
     max-height: 469.975px;
@@ -40,7 +40,7 @@ const EmployeeManagerInnerWrapper = styled.div`
     }
 `;
 
-const EmployeeManagerContainer = styled.div`
+const GymAssistantContainer = styled.div`
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -69,9 +69,10 @@ const ImageContentWrapper = styled.div`
     height: 100%;
     position: absolute;
     box-sizing: border-box;
+    display: block;
 `;
 
-const EmployeeManagerImg = styled.img`
+const GymAssistantImage = styled.img`
     filter: blur(0px);
     transition: filter 500ms linear 0s;
     width: 100%;
@@ -85,14 +86,14 @@ const EmployeeManagerImg = styled.img`
 `;
 
 const CardText = styled.div`
-    background-image:linear-gradient(transparent 0%, green);
+    background-image: linear-gradient(transparent 0%, #ff8c1a); 
     left: 0;
     color: #FFF;
     width: 100%;
     bottom: 0;
     padding: 40px;
     position: absolute;
-    max-height: 100%;
+    max-height: 100%;   
     box-sizing: border-box;
     display: block;
 `;
@@ -120,26 +121,26 @@ const Subtitle = styled.div`
     display: block;
 `;
 
-const EmployeeManager = props => {
+const GymAssistant = props => {
     return (
-        <EmployeeManagerWrapper>
-            <EmployeeManagerInnerWrapper>
-                <EmployeeManagerContainer>
+        <GymAssistantWrapper>
+            <GymAssistantInnerWrapper>
+                <GymAssistantContainer>
                     <a><CardContent>
                         <ImageWrapper>
-                            <EmployeeManagerImg src={EmployeeManagerPng} />
+                            <GymAssistantImage src={GymAssistantPng} />
                         </ImageWrapper>
                         <ImageContentWrapper>
                             <CardText>
-                                <Headline>Employee Manager</Headline>
-                                <Subtitle>January 2019</Subtitle>
+                                <Headline>January Featured Mods</Headline>
+                                <Subtitle>Fallout 4 • Jan 14</Subtitle>
                             </CardText>
                         </ImageContentWrapper>
                     </CardContent></a>
-                </EmployeeManagerContainer>
-            </EmployeeManagerInnerWrapper>
-        </EmployeeManagerWrapper>
+                </GymAssistantContainer>
+            </GymAssistantInnerWrapper>
+        </GymAssistantWrapper>
     );
 }
 
-export default EmployeeManager;
+export default GymAssistant;
