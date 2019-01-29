@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
-import EmployeeManager from './OtherOne/EmployeeManager';
-import GumAssistant from './OtherOne/GymAssistant';
-import GymAssistant from './OtherOne/GymAssistant';
+import EmployeeManager from './Projects/EmployeeManager';
+import GymAssistant from './Projects/GymAssistant';
+import GymPlan from './Projects/GymPlan';
+import Helo from './Projects/Helo';
+import Houser from './Projects/Houser';
+import Shelfie from './Projects/Shelfie';
 
 const LatestWrapper = styled.div`
     padding-top: 20px;
@@ -13,7 +16,7 @@ const LatestWrapper = styled.div`
     max-width: 1680px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: #F8F8F8;
+    background-color: #F1F1F1;
     width: calc(100% + 24px);
     margin: -12px;
     display: flex;
@@ -21,15 +24,19 @@ const LatestWrapper = styled.div`
     box-sizing: border-box;
 `;
 
-class OtherProjects1 extends Component {
+class OtherProjects extends Component {
     render() {
         return(
             <LatestWrapper>
                 <EmployeeManager />
                 <GymAssistant />
+                <GymPlan />
+                <Helo />
+                <Houser />
+                <Shelfie />
             </LatestWrapper>
         );
     }
 }
 
-export default OtherProjects1;
+export default OtherProjects;

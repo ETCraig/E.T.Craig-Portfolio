@@ -1,19 +1,19 @@
 import React from 'react';
-
-import GymAssistantPng from '../../../assets/Screenshot (129).png';
 import styled from 'styled-components';
 
-const GymAssistantWrapper = styled.div`
-    padding: 12px;
+import HouserPng from '../../../assets/Screenshot (26).png';
+
+const HouserWrapper = styled.div`
+    padding: 12px; 
     flex-grow: 0;
-    max-width: 25%;
-    flex-basis: 25%;
+    max-width: 50%;
+    flex-basis: 50%;
     margin: 0;
     box-sizing: border-box;
     display: block;
 `;
 
-const GymAssistantInnerWrapper = styled.div`
+const HouserInnerWrapper = styled.div`
     width: 100%;
     max-width: 100%;
     max-height: 469.975px;
@@ -40,7 +40,7 @@ const GymAssistantInnerWrapper = styled.div`
     }
 `;
 
-const GymAssistantContainer = styled.div`
+const HouserContainer = styled.div`
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -69,10 +69,9 @@ const ImageContentWrapper = styled.div`
     height: 100%;
     position: absolute;
     box-sizing: border-box;
-    display: block;
 `;
 
-const GymAssistantImage = styled.img`
+const HouserImg = styled.img`
     filter: blur(0px);
     transition: filter 500ms linear 0s;
     width: 100%;
@@ -86,14 +85,14 @@ const GymAssistantImage = styled.img`
 `;
 
 const CardText = styled.div`
-    background-image: linear-gradient(transparent 0%, #ff8c1a); 
+    background-image:linear-gradient(transparent 0%, #8AEA92);
     left: 0;
     color: #FFF;
     width: 100%;
     bottom: 0;
     padding: 40px;
     position: absolute;
-    max-height: 100%;   
+    max-height: 100%;
     box-sizing: border-box;
     display: block;
 `;
@@ -121,26 +120,26 @@ const Subtitle = styled.div`
     display: block;
 `;
 
-const GymAssistant = props => {
+const Houser = props => {
     return (
-        <GymAssistantWrapper>
-            <GymAssistantInnerWrapper>
-                <GymAssistantContainer>
+        <HouserWrapper>
+            <HouserInnerWrapper>
+                <HouserContainer>
                     <a><CardContent>
                         <ImageWrapper>
-                            <GymAssistantImage src={GymAssistantPng} />
+                            <HouserImg src={HouserPng} />
                         </ImageWrapper>
                         <ImageContentWrapper>
                             <CardText>
-                                <Headline>January Featured Mods</Headline>
-                                <Subtitle>Fallout 4 • Jan 14</Subtitle>
+                                <Headline>Houser</Headline>
+                                <Subtitle>June 2018</Subtitle>
                             </CardText>
                         </ImageContentWrapper>
                     </CardContent></a>
-                </GymAssistantContainer>
-            </GymAssistantInnerWrapper>
-        </GymAssistantWrapper>
+                </HouserContainer>
+            </HouserInnerWrapper>
+        </HouserWrapper>
     );
 }
 
-export default GymAssistant;
+export default Houser;

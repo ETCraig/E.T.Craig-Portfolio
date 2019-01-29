@@ -3,8 +3,7 @@ import styled from 'styled-components';
 
 import Intro from './Intro';
 import FeaturedProject from './FeaturedProject';
-import OtherProjects1 from './OtherProjects1';
-import OtherProjects2 from './OtherProjects2';
+import OtherProjects from './OtherProjects';
 
 const LandingWrapper = styled.div`
     max-width: 1920px;
@@ -36,8 +35,7 @@ class Landing extends Component {
             <LandingWrapper>
                 <Intro />
                 <FeaturedProject />
-                <OtherProjects1 />
-                <OtherProjects2 />
+                <OtherProjects />
                 <SectionBottom />
             </LandingWrapper>
         );
