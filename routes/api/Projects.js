@@ -29,6 +29,20 @@ router.post('/', (req, res) => {
     newProject.save().then(Project => res.json(Project));
 });
 
+router.put('/:name', (req, res) => {
+    Project.findOne({"name": req.params.name}, 
+    function(err, project) {
+        project.points.unshift({
+            point: req.body.point
+        });
+        project.save()
+    }).then(res => {
+        res.status(200).send(res);
+    }).catch(err => {
+        res.status(400).send(err);
+    });
+});
+
 router.delete('/:name', (req, res) => {
     Project.findOneAndDelete({"name": req.params.name}).then(res => {
         res.status(200).send(res)
