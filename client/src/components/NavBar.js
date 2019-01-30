@@ -19,7 +19,6 @@ const NavWrapper = styled.div`
     display: flex;
     position: absolute;
     align-items: center;
-    background-color: transparent;
     justify-content: space-between;
 `;
 
@@ -72,6 +71,8 @@ const NavItem = styled.h4`
 `;
 
 const NavBar = props => {
+    
+    
     return(
         <NavContainer>
             <NavWrapper>

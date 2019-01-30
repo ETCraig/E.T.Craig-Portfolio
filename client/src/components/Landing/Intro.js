@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Inntro = styled.div`
-    height: 1000px;
+    height: 800px;
     display: block;
     position: relative;
     z-index: 10;

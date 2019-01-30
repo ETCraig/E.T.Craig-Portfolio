@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
+import FeaturedProject from './FeaturedProject';
+import ProjectsIntro from './ProjectsIntro';
 import EmployeeManager from './Projects/EmployeeManager';
 import GymAssistant from './Projects/GymAssistant';
 import GymPlan from './Projects/GymPlan';

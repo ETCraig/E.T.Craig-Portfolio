@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 
 import Intro from './Intro';
-import FeaturedProject from './FeaturedProject';
+import SkillsHeader from './SkillsHeader';
+import Skills from './Skills';
+import ProjectsIntro from './ProjectsIntro';
 import OtherProjects from './OtherProjects';
 
 const LandingWrapper = styled.div`
@@ -34,7 +36,9 @@ class Landing extends Component {
         return(
             <LandingWrapper>
                 <Intro />
-                <FeaturedProject />
+                <SkillsHeader />
+                <Skills />
+                <ProjectsIntro />
                 <OtherProjects />
                 <SectionBottom />
             </LandingWrapper>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import FeaturedImg from '../../assets/Screenshot (85).png';
 
-const SnapOneWrapper = styled.div`
+const FeaturedProjectWrapper = styled.div`
     padding: 12px; 
     flex-grow: 0;
     max-width: 65%;
@@ -13,7 +13,7 @@ const SnapOneWrapper = styled.div`
     display: block;
 `;
 
-const SnapOneInnerWrapper = styled.div`
+const FeaturedProjectInnerWrapper = styled.div`
     width: 100%;
     max-width: 100%;
     max-height: 469.975px;
@@ -40,7 +40,7 @@ const SnapOneInnerWrapper = styled.div`
     }
 `;
 
-const SnapOneContainer = styled.div`
+const FeaturedProjectContainer = styled.div`
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -71,7 +71,7 @@ const ImageContentWrapper = styled.div`
     box-sizing: border-box;
 `;
 
-const SnapOneImg = styled.img`
+const FeaturedProjectImg = styled.img`
     filter: blur(0px);
     transition: filter 500ms linear 0s;
     width: 100%;
@@ -123,12 +123,12 @@ const Subtitle = styled.div`
 class FeaturedProject extends Component {
     render() {
         return(
-            <SnapOneWrapper>
-            <SnapOneInnerWrapper>
-                <SnapOneContainer>
+            <FeaturedProjectWrapper>
+            <FeaturedProjectInnerWrapper>
+                <FeaturedProjectContainer>
                     <a><CardContent>
                         <ImageWrapper>
-                            <SnapOneImg src={FeaturedImg} />
+                            <FeaturedProjectImg src={FeaturedImg} />
                         </ImageWrapper>
                         <ImageContentWrapper>
                             <CardText>
@@ -137,9 +137,9 @@ class FeaturedProject extends Component {
                             </CardText>
                         </ImageContentWrapper>
                     </CardContent></a>
-                </SnapOneContainer>
-            </SnapOneInnerWrapper>
-        </SnapOneWrapper>
+                </FeaturedProjectContainer>
+            </FeaturedProjectInnerWrapper>
+        </FeaturedProjectWrapper>
         );
     }
 }
