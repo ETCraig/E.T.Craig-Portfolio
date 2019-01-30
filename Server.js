@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const projects = require('./routes/api/Projects');
 
 const app = express();
 
@@ -12,6 +13,8 @@ const db = require('./config/Keys').mongoURI;
 mongoose.connect(db)
     .then(() => console.log('MongoDB Connected.'))
     .catch(err => console.log(err));
+
+app.use('/api/projects', projects)
 
 const Port = process.env.PORT || 5100;
 
