@@ -14,21 +14,21 @@ const ProjectSchema = new Schema({
 	    {
             project_picture: {
                 data: Buffer,
-                contentType: String
+                contentType: String,
             }
 	    }
     ],
-    repo: {
-        data: Buffer,
-        contentType: String
+    repository: {
+        type: String
     },
     description: {
         type: String,
+        required: true
     },
     points: [
         {
             point: {
-                type: String
+                type: String,
             }
         }
     ]
