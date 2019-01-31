@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import EmployeeManagerPng from '../../../assets/Screenshot (128).png';
+import ProjectModal from './ProjectModal';
 
 const EmployeeManagerWrapper = styled.div`
     padding: 12px; 
@@ -120,26 +121,55 @@ const Subtitle = styled.div`
     display: block;
 `;
 
-const EmployeeManager = props => {
-    return (
-        <EmployeeManagerWrapper>
-            <EmployeeManagerInnerWrapper>
-                <EmployeeManagerContainer>
-                    <a><CardContent>
-                        <ImageWrapper>
-                            <EmployeeManagerImg src={EmployeeManagerPng} />
-                        </ImageWrapper>
-                        <ImageContentWrapper>
-                            <CardText>
-                                <Headline>Employee Manager</Headline>
-                                <Subtitle>January 2019</Subtitle>
-                            </CardText>
-                        </ImageContentWrapper>
-                    </CardContent></a>
-                </EmployeeManagerContainer>
-            </EmployeeManagerInnerWrapper>
-        </EmployeeManagerWrapper>
-    );
+class EmployeeManager extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            modal: false
+        }
+        this.handleModal = this.handleModal.bind(this);
+    }
+    currentModal() {
+        if(!this.state.modal) {
+            return(
+                <div />
+            );
+        } else {
+            let nameString = 'Employee Manager';
+            console.log(nameString)
+            return(
+                <div>
+                    <ProjectModal name={nameString} />
+                </div>
+            );
+        }
+    }
+    handleModal() {
+        this.setState({modal: true})
+    }
+    render() {
+        return (
+            <EmployeeManagerWrapper>
+                <EmployeeManagerInnerWrapper>
+                    <EmployeeManagerContainer>
+                        <a><CardContent onClick={() => this.handleModal()}>
+                            <ImageWrapper>
+                                <EmployeeManagerImg src={EmployeeManagerPng} />
+                                {this.currentModal()}
+                            </ImageWrapper>
+                            <ImageContentWrapper>
+                                <CardText>
+                                    <Headline>Employee Manager</Headline>
+                                    <Subtitle>January 2019</Subtitle>
+                                </CardText>
+                            </ImageContentWrapper>
+                        </CardContent></a>
+                    </EmployeeManagerContainer>
+                </EmployeeManagerInnerWrapper>
+            </EmployeeManagerWrapper>
+        );
+    }
 }
 
 export default EmployeeManager;
