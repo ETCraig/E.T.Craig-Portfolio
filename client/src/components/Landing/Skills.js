@@ -79,55 +79,55 @@ class Skills extends Component {
         return(
             <SkillsWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={ReactPng} />
+                    <a href="https://reactjs.org/" target="blank"><ReactIcon src={ReactPng} /></a>
                     <ReactText>React</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={VuePng} />
+                    <a href="https://vuejs.org/" target="blank"><ReactIcon src={VuePng} /></a>
                     <ReactText>Vue</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={NodeJSPng} />
+                    <a href="https://nodejs.org/en/" target="blank"><ReactIcon src={NodeJSPng} /></a>
                     <ReactText>NodeJS</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={MongoPng} />
+                    <a href="https://www.mongodb.com/" target="blank"><ReactIcon src={MongoPng} /></a>
                     <ReactText>Mongo</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={PostgresPng} />
+                    <a href="https://www.postgresql.org/" target="blank"><ReactIcon src={PostgresPng} /></a>
                     <ReactText>Postgres</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={FirebasePng} />
+                    <a href="https://firebase.google.com/" target="blank"><ReactIcon src={FirebasePng} /></a>
                     <ReactText>Firebase</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={StripePng} />
+                    <a href="https://stripe.com/" target="blank"><ReactIcon src={StripePng} /></a>
                     <ReactText>Stripe</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={GitPng} />
+                    <a href="https://git-scm.com/" target="blank"><ReactIcon src={GitPng} /></a>
                     <ReactText>Git</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={JSPng} />
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank"><ReactIcon src={JSPng} /></a>
                     <ReactText>JavaScript</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={HTMLPng} />
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank"><ReactIcon src={HTMLPng} /></a>
                     <ReactText>HTML</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={CSSPng} />
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank"><ReactIcon src={CSSPng} /></a>
                     <ReactText>CSS</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={JestPng} />
+                    <a href="https://jestjs.io/en/" target="blank"><ReactIcon src={JestPng} /></a>
                     <ReactText>Jest</ReactText>
                 </ReactWrapper>
                 <ReactWrapper>
-                    <ReactIcon src={PostManPng} />
+                    <a href="https://learning.getpostman.com/" target="blank"><ReactIcon src={PostManPng} /></a>
                     <ReactText>Postman</ReactText>
                 </ReactWrapper>
             </SkillsWrapper>

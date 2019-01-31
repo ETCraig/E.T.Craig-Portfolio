@@ -82,21 +82,7 @@ const NavBar = props => {
                     </TittleWrapper>
                 </LeftWrapper>
                 <RightWrapper>
-                    <NavItemWrap>
-                        <Link to="" class={{textDecoration: 'none'}}><NavItem>
-                            Experience
-                        </NavItem></Link>
-                    </NavItemWrap>
-                    <NavItemWrap>
-                        <Link to="" class={{textDecoration: 'none'}}><NavItem>
-                            About
-                        </NavItem></Link>
-                    </NavItemWrap>
-                    <NavItemWrap>
-                        <Link to="" class={{textDecoration: 'none'}}><NavItem>
-                            Work
-                        </NavItem></Link>
-                    </NavItemWrap>
+                    
                 </RightWrapper>
             </NavWrapper>
         </NavContainer>

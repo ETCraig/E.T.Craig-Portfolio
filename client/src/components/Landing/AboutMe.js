@@ -10,7 +10,7 @@ const AboutMeWrapper = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #F1F1F1;
+    background-color: white;
     font-size: 16px;
     font-family: Montserrat;
     font-weight: 400;
