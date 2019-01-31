@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 
 import Intro from './Intro';
+import AboutMe from './AboutMe';
 import SkillsHeader from './SkillsHeader';
 import Skills from './Skills';
 import ProjectsIntro from './ProjectsIntro';
@@ -36,6 +37,7 @@ class Landing extends Component {
         return(
             <LandingWrapper>
                 <Intro />
+                <AboutMe />
                 <SkillsHeader />
                 <Skills />
                 <ProjectsIntro />

@@ -4,11 +4,9 @@ const Schema = mongoose.Schema;
 const ProjectSchema = new Schema({
     name: {
 	    type: String,
-	    required: true
 	},
     date: {
 	    type: String,
-	    required: true
 	},
     pictures: [
 	    {
@@ -18,7 +16,13 @@ const ProjectSchema = new Schema({
             }
 	    }
     ],
+    pic: {
+        type: String
+    },
     repository: {
+        type: String
+    },
+    site: {
         type: String
     },
     description: {

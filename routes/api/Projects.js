@@ -1,7 +1,10 @@
 const express = require('express');
 const router = express.Router();
+const fs = require('fs')
 
 const Project = require('../../models/Projects');
+
+var imgPath = (__dirname, '../../Screenshot (85).png')
 
 router.get('/', (req, res) => {
     Project.find({}, function(err, projects) {
@@ -30,18 +33,29 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:name', (req, res) => {
-    Project.findOne({"name": req.params.name}, 
-    function(err, project) {
-        project.points.unshift({
-            point: req.body.point
-        });
-        project.save()
-    }).then(res => {
-        res.status(200).send(res);
-    }).catch(err => {
-        res.status(400).send(err);
-    });
-});
+    Project.findOneAndUpdate(
+        {"name": req.params.name},
+        {"pic": req.body.pic},
+        {new: true}
+        ).then(project => res.json(project))
+})
+
+// router.put('/:name', (req, res) => {
+//     console.log(req.params.name)
+//     Project.findOne({"name": req.params.name}, 
+//     function(err, project) {
+//         console.log(err)
+//         console.log(project)
+//         project.points.unshift({
+//             point: req.body.point
+//         })
+//         project.save()
+//     }).then(res => {
+//         res.status(200).send(res);
+//     }).catch(err => {
+//         res.status(400).send(err);
+//     });
+// });
 
 router.delete('/:name', (req, res) => {
     Project.findOneAndDelete({"name": req.params.name}).then(res => {
