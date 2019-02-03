@@ -120,7 +120,8 @@ const Description = styled.p`
     font-size: 1.2em;
     margin-bottom: 3%;
     line-height: 170%;
-    margin: 0;
+    margin: 25px;
+    margin-top: 75px;
     padding: 0;
     border: 0;
     font: inherit;
@@ -215,12 +216,12 @@ const EmployeeManager = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                    errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+                Full stack application design for employers to manage and edit employee details. Uses the Vue.js framework and the Firebase Firestore cloud platform as the data store.
                 </Description>
                 <ListWrapper>
-                    <ListItems>To be or not to be</ListItems>
-                    <ListItems>It shmells like teen spirit</ListItems>
-                    <ListItems>This is the time</ListItems>
+                    <ListItems>Utilizes firebase.auth for authenticated routes</ListItems>
+                    <ListItems>Syncs up with Firebse once connected</ListItems>
+                    <ListItems>Operates without a connection</ListItems>
                 </ListWrapper>
             </DetailsWrapper>
             <ImageWrapper>

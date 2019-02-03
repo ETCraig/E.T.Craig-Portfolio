@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import HouserPng from '../../../assets/Screenshot (26).png';
+import Oranges2OrangesPng from '../../../assets/Screenshot (85).png';
 import LaptopPng from '../../../assets/download.png';
 
-const HouserWrapper = styled.div`
+const Oranges2OrangesWrapper = styled.div`
     min-height: 45vh;
     width: 80%;
     background: #fff;
@@ -204,9 +204,9 @@ const ProjectImage = styled.img`
     vertical-align: initial;
 `;
 
-const Houser = props => {
-    return (
-        <HouserWrapper>
+const Oranges2Oranges = props => {
+    return(
+        <Oranges2OrangesWrapper>
             <TitleWrapper>
                 <Title>Employee Manager</Title>
             </TitleWrapper>
@@ -216,22 +216,22 @@ const Houser = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                Secure application that allows the current user to create multiple house listings via a simple five step process and save them to their specific account, which is all held together by Redux.
+                A group developed responsive game based on Apples to Apples. Built mobile-first in React and implementing other technologies including socket.io and redux.
                 </Description>
                 <ListWrapper>
-                    <ListItems>To be or not to be</ListItems>
-                    <ListItems>It shmells like teen spirit</ListItems>
-                    <ListItems>This is the time</ListItems>
+                    <ListItems>Fully responsive design</ListItems>
+                    <ListItems>Uses socket.io for web-socket communication</ListItems>
+                    <ListItems>Incorporates unique animations an music</ListItems>
                 </ListWrapper>
             </DetailsWrapper>
             <ImageWrapper>
                 <ImageContainer>
                     <ImageFirst src={LaptopPng} />
-                    <ProjectImage src={HouserPng} />
+                    <ProjectImage src={Oranges2OrangesPng} />
                 </ImageContainer>
             </ImageWrapper>
-        </HouserWrapper>
+        </Oranges2OrangesWrapper>
     );
 }
 
-export default Houser;
+export default Oranges2Oranges;

@@ -1,7 +1,7 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import ShelfiePng from '../../../assets/Screenshot (29).png';
-import styled from 'styled-components';
 import LaptopPng from '../../../assets/download.png';
 
 const ShelfieWrapper = styled.div`
@@ -120,7 +120,8 @@ const Description = styled.p`
     font-size: 1.2em;
     margin-bottom: 3%;
     line-height: 170%;
-    margin: 0;
+    margin: 25px;
+    margin-top: 75px;
     padding: 0;
     border: 0;
     font: inherit;
@@ -207,7 +208,7 @@ const Shelfie = props => {
     return (
         <ShelfieWrapper>
             <TitleWrapper>
-                <Title>Gym Assistant</Title>
+                <Title>Employee Manager</Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>
@@ -215,20 +216,20 @@ const Shelfie = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+                Shelfie allows the user to view four different Shelves each with four different bins containing a product with that products details, they can then view it, edit it, or delete and create a new item.
                 </Description>
                 <ListWrapper>
-                    <ListItems></ListItems>
-                    <ListItems></ListItems>
-                    <ListItems></ListItems>
+                    <ListItems>To be or not to be</ListItems>
+                    <ListItems>It shmells like teen spirit</ListItems>
+                    <ListItems>This is the time</ListItems>
                 </ListWrapper>
-                <ImageWrapper>
-                    <ImageContainer>
-                        <ImageFirst src={LaptopPng} />
-                        <ProjectImage src={ShelfiePng} />
-                    </ImageContainer>
-                </ImageWrapper>
             </DetailsWrapper>
+            <ImageWrapper>
+                <ImageContainer>
+                    <ImageFirst src={LaptopPng} />
+                    <ProjectImage src={ShelfiePng} />
+                </ImageContainer>
+            </ImageWrapper>
         </ShelfieWrapper>
     );
 }
