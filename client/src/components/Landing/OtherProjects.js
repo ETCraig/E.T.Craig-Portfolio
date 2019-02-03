@@ -11,19 +11,22 @@ import Houser from './Projects/Houser';
 import Shelfie from './Projects/Shelfie';
 
 const LatestWrapper = styled.div`
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1680px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: #F1F1F1;
-    width: calc(100% + 24px);
-    margin: -12px;
+    height: fit-content;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 3% 0;
+    background: #f4f4f4;
+    background-image: url(/static/media/topo.bd5465e5.png);
+    background-blend-mode: soft-light;
     display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: initial;
 `;
 
 class OtherProjects extends Component {

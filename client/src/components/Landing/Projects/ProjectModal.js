@@ -21,24 +21,24 @@ class ProjectModal extends Component {
     }
     render() {
         return(
-            <div>
                 <Modal
-                    isOpen={this.state.modal}
+                    isOpen={true}
                     style={{marginTop: '100px'}}
                 >
                     <ModalHeader>Yo</ModalHeader>
                     <ModalBody>
-                    <Button 
-                        color='dark'
-                        style={{marginTop: '2rem', background: '#3897f0', marginLeft: '5px'}}
-                        block
-                        
-                    >
-                    Subscribe
-                    </Button>
+                        <Form>
+                        <Button 
+                            color='dark'
+                            style={{marginTop: '2rem', background: '#3897f0', marginLeft: '5px'}}
+                            block
+                            
+                        >
+                        Subscribe
+                        </Button>
+                        </Form>
                     </ModalBody>
                 </Modal>
-            </div>
         );
     }
 }
