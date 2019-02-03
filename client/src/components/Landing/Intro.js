@@ -179,11 +179,10 @@ const ImgBackInner = styled.div`
 `;
 
 const Img = styled.img`
-    background-image: url(https://us.123rf.com/450wm/iunewind/iunewind1602/iunewind160200043/52370851-binary-machine-code-computer-program-listing-vertical-vector-a4-background.jpg?ver=6);
     display: block;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    height: 490px;
-    width: 400px;
+    height: 450px;
+    width: 700px;
     left: 775px;
     top: 111px;
     transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
@@ -249,7 +248,7 @@ const Intro = props => {
                             </BckgContainer>
                         </TextInner>
                     </TextWrapper>
-                    <Img />
+                    <Img src="https://southseadesigns.com/wp-content/uploads/2018/06/software-application-development.png"/>
                     <Border>
                         <BorderInner></BorderInner>
                     </Border>
