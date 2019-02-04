@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import ReactPng from '../../assets/react.svg';
@@ -76,7 +76,7 @@ const ReactText = styled.p`
 
 class Skills extends Component {
     render() {
-        return(
+        return (
             <SkillsWrapper>
                 <ReactWrapper>
                     <a href="https://reactjs.org/" target="blank"><ReactIcon src={ReactPng} /></a>

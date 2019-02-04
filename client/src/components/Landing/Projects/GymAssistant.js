@@ -18,12 +18,13 @@ const GymAssistantWrapper = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Ubuntu', sans-serif;
 `;
 
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: black;
+    background: #CCCCCC;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -127,6 +128,7 @@ const Description = styled.p`
     border: 0;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Lora', serif;
 `;
 
 const ListWrapper = styled.ul`
@@ -157,6 +159,7 @@ const ListItems = styled.li`
     vertical-align: initial;
     display: list-item;
     text-align: -webkit-match-parent;
+    font-family: 'Lora', serif;
 `;
 
 const ImageWrapper = styled.div`
@@ -220,7 +223,7 @@ const GymAssistant = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                Allows users to create a unique account and have acces to their personal goals and two built in calculators. Built with the MERN Stack (MongoDB, Express, React, Node.js).
+                    Allows users to create a unique account and have acces to their personal goals and two built in calculators. Built with the MERN Stack (MongoDB, Express, React, Node.js).
                 </Description>
                 <ListWrapper>
                     <ListItems>Securley handles jwt-tokens and Authentication</ListItems>

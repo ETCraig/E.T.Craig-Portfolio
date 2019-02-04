@@ -18,12 +18,13 @@ const ShelfieWrapper = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Ubuntu', sans-serif;
 `;
 
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: black;
+    background: #CCCCCC;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -127,6 +128,7 @@ const Description = styled.p`
     border: 0;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Lora', serif;
 `;
 
 const ListWrapper = styled.ul`
@@ -157,6 +159,7 @@ const ListItems = styled.li`
     vertical-align: initial;
     display: list-item;
     text-align: -webkit-match-parent;
+    font-family: 'Lora', serif;
 `;
 
 const ImageWrapper = styled.div`
@@ -219,7 +222,7 @@ const Shelfie = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                Shelfie allows the user to view four different Shelves each with four different bins containing a product with that products details, they can then view it, edit it, or delete and create a new item.
+                    Shelfie allows the user to view four different Shelves each with four different bins containing a product with that products details, they can then view it, edit it, or delete and create a new item.
                 </Description>
                 <ListWrapper>
                     <ListItems>To be or not to be</ListItems>

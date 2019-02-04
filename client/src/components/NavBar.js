@@ -8,7 +8,7 @@ const NavContainer = styled.div`
     width: 100%;
     height: 60px;
     display: flex;
-    z-index: 1100;
+    z-index: 1100;F
     position: fixed;
     overflow: hidden;
 `;
@@ -35,7 +35,7 @@ const TittleWrapper = styled.div`
     padding: 0;
 `;
 const NameTitle = styled.h1`
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     line-height: 26.08px;
     word-spacing: 0px;

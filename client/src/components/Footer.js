@@ -49,24 +49,24 @@ const Link = styled.a`
 `;
 
 const Footer = props => {
-    return(
+    return (
         <FooterWrapper>
             <FooterContainer>
                 <FooterDir>
-                <LeftFooter>
-                    @2019 E.T.Craig Inc
+                    <LeftFooter>
+                        @2019 E.T.Craig Inc
                 </LeftFooter>
-                <RightFooter>
-                    <LinkItem>
-                        <Link href="https://www.linkedin.com/in/ethan-craig-93000015a/" target="_blank">LinkedIn</Link>
-                    </LinkItem>
-                    <LinkItem>
-                        <Link href="https://github.com/ETCraig" target="_blank">Github</Link>
-                    </LinkItem>
-                    <LinkItem>
-                        <Link href="https://wakatime.com/@ETCraig?rank=me&page=1&board=60d90404-f4ff-4b8b-8f5c-d3879bd23503" target="_blank">Wakatime</Link>
-                    </LinkItem>
-                </RightFooter>
+                    <RightFooter>
+                        <LinkItem>
+                            <Link href="https://www.linkedin.com/in/ethan-craig-93000015a/" target="_blank">LinkedIn</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Link href="https://github.com/ETCraig" target="_blank">Github</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Link href="https://wakatime.com/@ETCraig?rank=me&page=1&board=60d90404-f4ff-4b8b-8f5c-d3879bd23503" target="_blank">Wakatime</Link>
+                        </LinkItem>
+                    </RightFooter>
                 </FooterDir>
             </FooterContainer>
         </FooterWrapper>

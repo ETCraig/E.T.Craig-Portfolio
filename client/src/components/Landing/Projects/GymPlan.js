@@ -23,7 +23,7 @@ const GymPlanWrapper = styled.div`
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: black;
+    background: #CCCCCC;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -217,7 +217,7 @@ const GymPlan = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                Created on a PERN Stack (Postgres, Express, React, Node), gymPlan allows users to create unique workout routines and track their physical progress via goals and stats.
+                    Created on a PERN Stack (Postgres, Express, React, Node), gymPlan allows users to create unique workout routines and track their physical progress via goals and stats.
                 </Description>
                 <ListWrapper>
                     <ListItems>DB works with Auth0 to login and register users</ListItems>

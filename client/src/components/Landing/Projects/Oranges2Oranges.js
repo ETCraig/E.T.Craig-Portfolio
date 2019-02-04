@@ -19,12 +19,13 @@ const Oranges2OrangesWrapper = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Ubuntu', sans-serif;
 `;
 
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: black;
+    background: #CCCCCC;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -127,6 +128,7 @@ const Description = styled.p`
     border: 0;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Lora', serif;
 `;
 
 const ListWrapper = styled.ul`
@@ -157,6 +159,7 @@ const ListItems = styled.li`
     vertical-align: initial;
     display: list-item;
     text-align: -webkit-match-parent;
+    font-family: 'Lora', serif;
 `;
 
 const ImageWrapper = styled.div`
@@ -209,7 +212,7 @@ const ProjectImage = styled.img`
 `;
 
 const Oranges2Oranges = props => {
-    return(
+    return (
         <Oranges2OrangesWrapper>
             <TitleWrapper>
                 <Title>Oranges2Oranges</Title>
@@ -220,7 +223,7 @@ const Oranges2Oranges = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                A group developed responsive game based on Apples to Apples. Built mobile-first in React and implementing other technologies including socket.io and redux.
+                    A group developed responsive game based on Apples to Apples. Built mobile-first in React and implementing other technologies including socket.io and redux.
                 </Description>
                 <ListWrapper>
                     <ListItems>Fully responsive design</ListItems>

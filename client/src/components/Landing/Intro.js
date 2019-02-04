@@ -90,7 +90,7 @@ const TextLine1 = styled.span`
     font-size: 56px;
     color: inherit;
     text-decoration: none;
-    font-family: Tisa Pro,sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 200;
     letter-spacing: -.03em;
     line-height: 1.07143;
@@ -111,7 +111,7 @@ const TextLine2 = styled.span`
     white-space: pre-line;
     font-size: 56px;
     text-decoration: none;
-    font-family: Tisa Pro,sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     letter-spacing: -.03em;
     line-height: 1.07143;
     box-sizing: inherit;
@@ -226,7 +226,7 @@ const BorderInner = styled.div`
 `;
 
 const Intro = props => {
-    return(
+    return (
         <Inntro>
             <IntroWrapper>
                 <InnerContainer>
@@ -248,7 +248,7 @@ const Intro = props => {
                             </BckgContainer>
                         </TextInner>
                     </TextWrapper>
-                    <Img src="https://southseadesigns.com/wp-content/uploads/2018/06/software-application-development.png"/>
+                    <Img src="https://southseadesigns.com/wp-content/uploads/2018/06/software-application-development.png" />
                     <Border>
                         <BorderInner></BorderInner>
                     </Border>

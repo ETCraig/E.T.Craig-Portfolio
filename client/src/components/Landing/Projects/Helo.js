@@ -18,12 +18,13 @@ const HeloWrapper = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Ubuntu', sans-serif;
 `;
 
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: black;
+    background: #CCCCCC;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -127,6 +128,7 @@ const Description = styled.p`
     border: 0;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Lora', serif;
 `;
 
 const ListWrapper = styled.ul`
@@ -157,6 +159,7 @@ const ListItems = styled.li`
     vertical-align: initial;
     display: list-item;
     text-align: -webkit-match-parent;
+    font-family: 'Lora', serif;
 `;
 
 const ImageWrapper = styled.div`
@@ -219,7 +222,7 @@ const Helo = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                A small full stack application meant to replicate the friend functionality of many social media sites, it presents other accounts to the user which can be filtered, friended, and unfriended.
+                    A small full stack application meant to replicate the friend functionality of many social media sites, it presents other accounts to the user which can be filtered, friended, and unfriended.
                 </Description>
                 <ListWrapper>
                     <ListItems>Seaches the DB via customer SQL query</ListItems>

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Intro from './Intro';
@@ -34,7 +34,7 @@ const SectionBottom = styled.div`
 
 class Landing extends Component {
     render() {
-        return(
+        return (
             <LandingWrapper>
                 <Intro />
                 <AboutMe />

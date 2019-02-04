@@ -18,12 +18,13 @@ const HouserWrapper = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Ubuntu', sans-serif;
 `;
 
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: black;
+    background: #CCCCCC;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -127,6 +128,7 @@ const Description = styled.p`
     border: 0;
     font: inherit;
     vertical-align: initial;
+    font-family: 'Lora', serif;
 `;
 
 const ListWrapper = styled.ul`
@@ -157,6 +159,7 @@ const ListItems = styled.li`
     vertical-align: initial;
     display: list-item;
     text-align: -webkit-match-parent;
+    font-family: 'Lora', serif;
 `;
 
 const ImageWrapper = styled.div`
@@ -220,7 +223,7 @@ const Houser = props => {
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
-                Secure application that allows the current user to create multiple house listings via a simple five step process and save them to their specific account, which is all held together by Redux.
+                    Secure application that allows the current user to create multiple house listings via a simple five step process and save them to their specific account, which is all held together by Redux.
                 </Description>
                 <ListWrapper>
                     <ListItems>To be or not to be</ListItems>

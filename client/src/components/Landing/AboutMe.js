@@ -12,7 +12,7 @@ const AboutMeWrapper = styled.div`
     justify-content: center;
     background-color: white;
     font-size: 16px;
-    font-family: Montserrat;
+    font-family: 'Lora', serif;
     font-weight: 400;
     line-height: 1.63;
     letter-spacing: 0;
@@ -34,7 +34,7 @@ const ProImage = styled.img`
 const AboutMeTextWrapper = styled.div`
     max-width: 500px;
     font-size: 14px;
-    font-family: Montserrat;
+    font-family: 'Lora', serif;
     font-weight: 400;
     line-height: 1.63;
     letter-spacing: 0;
@@ -51,9 +51,9 @@ const AboutMe = props => {
         <AboutMeWrapper>
             <AboutMeTextWrapper>
                 <AboutMeText>
-                <ProImage src={MeImage} />
-<br />
-                I'm a full stack web developer with an emphasis on back-end and data flow. I've been learning and practicing code for two years now and have found myself working on two different Startup companies. I'm alwasy working on a new project on my own, usually focused on implementing a new and popular technology. I've received two online certificates in Web-Design and Javascript, and have previously graduated from DevMountain coding bootcamp.
+                    <ProImage src={MeImage} />
+                    <br />
+                    I'm a full stack web developer with an emphasis on back-end and data flow. I've been learning and practicing code for two years now and have found myself working on two different Startup companies. I'm alwasy working on a new project on my own, usually focused on implementing a new and popular technology. I've received two online certificates in Web-Design and Javascript, and have previously graduated from DevMountain coding bootcamp.
                 </AboutMeText>
             </AboutMeTextWrapper>
         </AboutMeWrapper>

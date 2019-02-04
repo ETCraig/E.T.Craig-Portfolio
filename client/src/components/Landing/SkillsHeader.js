@@ -11,7 +11,7 @@ const SkillsWrapper = styled.div`
     justify-content: center;
     background-color: #F1F1F1;
     font-size: 16px;
-    font-family: Montserrat;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 1.63;
     letter-spacing: 0;
@@ -21,7 +21,7 @@ const LatestTitle = styled.h3`
     color: #454545;
     font-size: 2.94em;
     font-weight: 700;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     line-height: 1.06;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -35,10 +35,11 @@ const Description = styled.div`
     font-weight: 400;
     line-height: 1.63;
     letter-spacing: 0;
-`; 
+    font-family: 'Lora', serif;
+`;
 
 const SkillsHeader = props => {
-    return(
+    return (
         <SkillsWrapper>
             <LatestTitle>My Skills</LatestTitle>
             <Description>The languages and technologies I use</Description>
