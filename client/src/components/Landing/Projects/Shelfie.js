@@ -23,7 +23,7 @@ const ShelfieWrapper = styled.div`
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: #f4f4f4;
+    background: black;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -40,6 +40,7 @@ const TitleWrapper = styled.div`
 `;
 
 const Title = styled.div`
+    color: #fff;
     font-size: 2em;
     margin: 0;
     padding: 0;
@@ -182,6 +183,8 @@ const ImageContainer = styled.div`
 `;
 
 const ImageFirst = styled.img`
+    width: 480px;
+    height: 360px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -192,10 +195,10 @@ const ImageFirst = styled.img`
 
 const ProjectImage = styled.img`
     position: absolute;
-    top: 45px;
-    left: 71px;
-    width: 310px;
-    height: 200px;
+    top: 50px;
+    left: 74px;
+    width: 335px;
+    height: 245px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -208,11 +211,11 @@ const Shelfie = props => {
     return (
         <ShelfieWrapper>
             <TitleWrapper>
-                <Title>Employee Manager</Title>
+                <Title>Shelfie</Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>
-                <LinkTag><Link>Repo</Link></LinkTag>
+                <LinkTag href="https://github.com/ETCraig/Shelfie-App" target="blank"><Link>Repo</Link></LinkTag>
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>

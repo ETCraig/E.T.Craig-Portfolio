@@ -181,7 +181,7 @@ const ImgBackInner = styled.div`
 const Img = styled.img`
     display: block;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    height: 450px;
+    height: 480px;
     width: 700px;
     left: 775px;
     top: 111px;

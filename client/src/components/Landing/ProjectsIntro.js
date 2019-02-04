@@ -42,7 +42,7 @@ const ProjectsIntro = props => {
     return(
         <LatestWrapper>
             <LatestTitle>My Projects</LatestTitle>
-            <Description>Personally Developed</Description>
+            <Description>Full Stack Projects</Description>
         </LatestWrapper>
     );
 }

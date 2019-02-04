@@ -7,7 +7,7 @@ const FooterWrapper = styled.div`
 `;
 
 const FooterContainer = styled.div`
-    color: #fff;
+    color: black;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -22,7 +22,7 @@ const FooterDir = styled.div`
     display: flex;
     padding: 4vh 5vw;
     justify-content: space-between;
-    background-color: rgb(29, 29, 29);
+    background-color: #fff;
     box-sizing: border-box;
 `;
 
@@ -45,7 +45,7 @@ const LinkItem = styled.div`
 
 const Link = styled.a`
     text-decoration: none;
-    color: #fff;
+    color: black;
 `;
 
 const Footer = props => {

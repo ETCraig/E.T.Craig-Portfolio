@@ -23,7 +23,7 @@ const GymPlanWrapper = styled.div`
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: #f4f4f4;
+    background: black;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -40,6 +40,7 @@ const TitleWrapper = styled.div`
 `;
 
 const Title = styled.div`
+    color: #fff;
     font-size: 2em;
     margin: 0;
     padding: 0;

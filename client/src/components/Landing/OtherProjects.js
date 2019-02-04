@@ -35,7 +35,7 @@ class OtherProjects extends Component {
                 <Oranges2Oranges />
                 <EmployeeManager />
                 <GymAssistant />
-                <GymPlan />
+                {/* <GymPlan /> */}
                 <Helo />
                 <Houser />
                 <Shelfie />

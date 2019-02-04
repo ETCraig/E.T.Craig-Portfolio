@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import GymAssistantPng from '../../../assets/Screenshot (28).png';
-import LaptopPng from '../../../assets/download.png';
+import LaptopPng from '../../../assets/laptop_PNG5887.png';
 
 const GymAssistantWrapper = styled.div`
     min-height: 45vh;
@@ -23,7 +23,7 @@ const GymAssistantWrapper = styled.div`
 const TitleWrapper = styled.div`
     width: 250px;
     height: 75px;
-    background: #f4f4f4;
+    background: black;
     border-bottom-right-radius: 10px;
     position: absolute;
     top: 0;
@@ -40,6 +40,7 @@ const TitleWrapper = styled.div`
 `;
 
 const Title = styled.div`
+    color: #fff;
     font-size: 2em;
     margin: 0;
     padding: 0;
@@ -179,9 +180,12 @@ const ImageContainer = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    right: 50px;
 `;
 
 const ImageFirst = styled.img`
+    width: 390px;
+    height: 260px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -192,10 +196,10 @@ const ImageFirst = styled.img`
 
 const ProjectImage = styled.img`
     position: absolute;
-    top: 45px;
-    left: 71px;
-    width: 310px;
-    height: 200px;
+    top: 8px;
+    left: 8px;
+    width: 374px;
+    height: 204px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -208,11 +212,11 @@ const GymAssistant = props => {
     return (
         <GymAssistantWrapper>
             <TitleWrapper>
-                <Title>Employee Manager</Title>
+                <Title>Gym Assistant</Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>
-                <LinkTag><Link>Repo</Link></LinkTag>
+                <LinkTag href="https://github.com/ETCraig/GymAssistant-NotNative" target="blank"><Link>Repo</Link></LinkTag>
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>

@@ -21,15 +21,15 @@ const LandingWrapper = styled.div`
 `;
 
 const SectionBottom = styled.div`
-    height: 15vmax;
-    margin: auto;
-    display: flex;
-    max-width: 1680px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #F8F8F8;
-    box-sizing: border-box;
+    // height: 15vmax;
+    // margin: auto;
+    // display: flex;
+    // max-width: 1680px;
+    // align-items: center;
+    // flex-direction: column;
+    // justify-content: center;
+    // background-color: #F8F8F8;
+    // box-sizing: border-box;
 `;
 
 class Landing extends Component {
