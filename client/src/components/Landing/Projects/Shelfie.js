@@ -214,7 +214,7 @@ const Shelfie = props => {
     return (
         <ShelfieWrapper>
             <TitleWrapper>
-                <Title>Shelfie</Title>
+                <Title><h2>Shelfie</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>

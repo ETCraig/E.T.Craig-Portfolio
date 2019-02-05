@@ -215,7 +215,7 @@ const GymAssistant = props => {
     return (
         <GymAssistantWrapper>
             <TitleWrapper>
-                <Title>Gym Assistant</Title>
+                <Title><h2>Gym Assistant</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>

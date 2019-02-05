@@ -214,7 +214,7 @@ const EmployeeManager = props => {
     return (
         <EmployeeManagerWrapper>
             <TitleWrapper>
-                <Title>Employee Manager</Title>
+                <Title><h2>Employee Manager</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>

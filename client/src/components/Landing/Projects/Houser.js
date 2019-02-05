@@ -215,7 +215,7 @@ const Houser = props => {
     return (
         <HouserWrapper>
             <TitleWrapper>
-                <Title>Houser</Title>
+                <Title><h2>Houser</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>

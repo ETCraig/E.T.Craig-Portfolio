@@ -214,7 +214,7 @@ const Helo = props => {
     return (
         <HeloWrapper>
             <TitleWrapper>
-                <Title>Helo</Title>
+                <Title><h2>Helo</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>

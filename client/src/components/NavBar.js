@@ -82,7 +82,7 @@ const NavBar = props => {
                     </TittleWrapper>
                 </LeftWrapper>
                 <RightWrapper>
-                    
+                    <NavItem>Ever Learning Full Stack Software Developer</NavItem>
                 </RightWrapper>
             </NavWrapper>
         </NavContainer>

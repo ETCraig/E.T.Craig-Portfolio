@@ -215,7 +215,7 @@ const Oranges2Oranges = props => {
     return (
         <Oranges2OrangesWrapper>
             <TitleWrapper>
-                <Title>Oranges2Oranges</Title>
+                <Title><h2>Oranges2Oranges</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
                 <LinkTag><Link>Site</Link></LinkTag>

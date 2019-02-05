@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import SidecoachPng from '../../assets/sidecoach-logo.png';
+import BusyHumanPng from '../../assets/busy-logo.png';
+
 const Inntro = styled.div`
     height: 800px;
     display: block;
@@ -62,7 +65,7 @@ const TextContainer = styled.div`
     flex: none;
     padding-left: 15px;
     padding-right: 15px;
-    width: 41.66667%;
+    width: 51.66667%;
     align-self: center;
     position: relative;
     z-index: 1;
@@ -86,26 +89,8 @@ const Text = styled.div`
     box-sizing: inherit;
 `;
 
-const TextLine1 = styled.span`
-    font-size: 56px;
-    color: inherit;
-    text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 200;
-    letter-spacing: -.03em;
-    line-height: 1.07143;
-    box-sizing: inherit;
-    background-position: 1694px 0px;
-    display: inline;
-    position: relative;
-    background-image: linear-gradient(0deg,rgba(0,0,0,.5) 2px,hsla(0,0%,100%,0) 0);
-    background-repeat: no-repeat;
-    background-size: 100% 90%;
-    will-change: background-position;
-`;
-
 const TextLine2 = styled.span`
-    margin-top: 40px;
+    margin-top: -160px;
     font-weight: 100;
     color: #9ea0a6;
     white-space: pre-line;
@@ -178,24 +163,71 @@ const ImgBackInner = styled.div`
     box-sizing: inherit;
 `;
 
+const ImgWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -540px;
+    justify-content: space-evenly;
+`;
+
+const Img1Div = styled.div`
+    min-height: 25vh;
+    width: 70%;
+    display: flex;
+    justify-content: row;
+    background-color: #FFF;
+    align-items: center;
+    margin: 10px 0;
+    box-shadow: 0 10px 16px -11px rgba(0,0,0,.2);
+    padding: 0;
+    border: 0;
+`;
+
+const Img2Div = styled.div`
+    min-height: 25vh;
+    width: 70%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: row;
+    background-color: #FFF;
+    align-items: center;
+    margin: 40px 0;
+    box-shadow: 0 10px 16px -11px rgba(0,0,0,.2);
+    padding: 0;
+    border: 0;
+`;
+
 const Img = styled.img`
     display: block;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    height: 480px;
-    width: 700px;
-    left: 775px;
-    top: 111px;
+    height: 140px;
+    width: 400px;
+    margin-left: 10px;
+    // top: 111px;
     transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
-    color: inherit;
-    text-decoration: none;
-    position: absolute;
+    // color: inherit;
+    // text-decoration: none;
+    // position: absolute;
     right: 0;
     bottom: 0;
     z-index: 2;
-    overflow: hidden;
-    background: 50% no-repeat;
-    background-size: cover;
-    box-sizing: inherit;
+`;
+
+const Img2 = styled.img`
+    display: block;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    height: 220px;
+    width: 300px;
+    // left: 775px;
+    margin-top: 0px;
+    transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
+    // color: inherit;
+    // text-decoration: none;
+    // position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
 `;
 
 const Border = styled.div`
@@ -225,6 +257,23 @@ const BorderInner = styled.div`
     display: block;
 `;
 
+const AboutMeTextWrapper = styled.div`
+    align-items: center;
+    justify-content: center;    
+    max-width: 500px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    line-height: 1.63;
+    letter-spacing: 0;
+`;
+
+const AboutMeText = styled.p`
+    font-size: 1.2em;
+    line-height: 200%;
+    text-align: center;
+`;
+
 const Intro = props => {
     return (
         <Inntro>
@@ -234,7 +283,6 @@ const Intro = props => {
                         <TextInner>
                             <TextContainer>
                                 <Text>
-                                    <TextLine1>Ever Learning Full Stack Software Developer</TextLine1>
                                     <TextLine2>Currently working at SideCoach and Bussy Human</TextLine2>
                                 </Text>
                             </TextContainer>
@@ -247,8 +295,21 @@ const Intro = props => {
                                 </ImgBackContainer>
                             </BckgContainer>
                         </TextInner>
+                        <ImgWrapper>
+                        <Img1Div>
+                        <Img src={SidecoachPng} />
+                            <AboutMeTextWrapper>
+                            <AboutMeText>gggggggggggggggggggggggggggg ggggggggggggggggg ggggggggggggggggggg ggggggggg gggggggggggggggggggggggggggg</AboutMeText>
+                            </AboutMeTextWrapper>
+                        </Img1Div>
+                        <Img2Div>
+                        <Img2 src={BusyHumanPng} />
+                            <AboutMeTextWrapper>
+                            <   AboutMeText>gggggggggggggggggggggggggggg ggggggggggggggggg ggggggggggggggggggg ggggggggg gggggggggggggggggggggggggggg</AboutMeText>
+                            </AboutMeTextWrapper>
+                        </Img2Div>
+                    </ImgWrapper>
                     </TextWrapper>
-                    <Img src="https://southseadesigns.com/wp-content/uploads/2018/06/software-application-development.png" />
                     <Border>
                         <BorderInner></BorderInner>
                     </Border>
