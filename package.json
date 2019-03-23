@@ -5,12 +5,20 @@
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "start": "node Server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
     "heroku-postbuild": "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ETCraig/E.T.Craig-Portfolio.git"
   },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
   "author": "E. T. Craig",
   "license": "ISC",
   "bugs": {
