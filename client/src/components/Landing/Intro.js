@@ -1,9 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import SidecoachPng from '../../assets/sidecoach-logo.png';
-import BusyHumanPng from '../../assets/busy-logo.png';
-
 const Inntro = styled.div`
     height: 800px;
     display: block;
@@ -296,19 +293,7 @@ const Intro = props => {
                             </BckgContainer>
                         </TextInner>
                         <ImgWrapper>
-                        <Img1Div>
-                        <Img src={SidecoachPng} />
-                            <AboutMeTextWrapper>
-                            <AboutMeText>gggggggggggggggggggggggggggg ggggggggggggggggg ggggggggggggggggggg ggggggggg gggggggggggggggggggggggggggg</AboutMeText>
-                            </AboutMeTextWrapper>
-                        </Img1Div>
-                        <Img2Div>
-                        <Img2 src={BusyHumanPng} />
-                            <AboutMeTextWrapper>
-                            <   AboutMeText>gggggggggggggggggggggggggggg ggggggggggggggggg ggggggggggggggggggg ggggggggg gggggggggggggggggggggggggggg</AboutMeText>
-                            </AboutMeTextWrapper>
-                        </Img2Div>
-                    </ImgWrapper>
+                        </ImgWrapper>
                     </TextWrapper>
                     <Border>
                         <BorderInner></BorderInner>
