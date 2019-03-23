@@ -27,6 +27,7 @@
   "homepage": "https://github.com/ETCraig/E.T.Craig-Portfolio#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "mongoose": "^5.4.7"
   },
