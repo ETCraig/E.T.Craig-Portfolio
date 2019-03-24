@@ -11,6 +11,9 @@ const NavContainer = styled.div`
     z-index: 1100;F
     position: fixed;
     overflow: hidden;
+    @media(max-width: 434px) {
+        height: 100px;
+    }
 `;
 
 const NavWrapper = styled.div`
@@ -20,6 +23,10 @@ const NavWrapper = styled.div`
     position: absolute;
     align-items: center;
     justify-content: space-between;
+    @media(max-width: 434px) {
+        flex-direction: column;
+        height: 100px;
+    }
 `;
 
 const LeftWrapper = styled.div`
@@ -47,6 +54,9 @@ const NameTitle = styled.h1`
     cursor: pointer;
     color: black;
     margin-left: 15px;
+    @media(max-width: 434px) {
+        margin-left: 0px;
+    }
 `;
 
 const RightWrapper = styled.div`
@@ -54,6 +64,9 @@ const RightWrapper = styled.div`
     align-items: center;
     margin-right: 35px;
     flex-direction: row;
+    @media(max-width: 434px) {
+        margin-right: 0px;
+    }
 `;
 
 const NavItemWrap = styled.div`
@@ -67,6 +80,9 @@ const NavItem = styled.h4`
     margin-right: 50px;
     &:hover {
         cursor: pointer;
+    }
+    @media(max-width: 434px) {
+        margin-right: 0px;
     }
 `;
 

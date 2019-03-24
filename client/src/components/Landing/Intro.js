@@ -11,6 +11,9 @@ const Inntro = styled.div`
     pointer-events: none;
     background-color: #F1F1F1;
     box-sizing: inherit;
+    @media (max-width: 730px) {
+        min-height: 60vh;
+    }
 `;
 
 const IntroWrapper = styled.div`
@@ -68,6 +71,12 @@ const TextContainer = styled.div`
     z-index: 1;
     box-sizing: inherit;
     display: block;
+    @media (max-width: 954px) {
+        width: 69%;
+    }
+    @media (max-width: 730px) {
+        width: 90%;
+    }
 `;
 
 const Text = styled.div`
@@ -104,6 +113,9 @@ const TextLine2 = styled.span`
     background-repeat: no-repeat;
     background-size: 100% 90%;
     will-change: background-position;
+    @media (max-width: 730px) {
+        font-size: 46px;
+    }
 `;
 
 const BckgContainer = styled.div`
