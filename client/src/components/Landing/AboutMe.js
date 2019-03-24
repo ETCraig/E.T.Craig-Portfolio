@@ -19,9 +19,9 @@ const AboutMeWrapper = styled.div`
 `;
 
 const ProImage = styled.img`
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
     margin-bottom: 25px;
     margin: 0;
     padding: 0;

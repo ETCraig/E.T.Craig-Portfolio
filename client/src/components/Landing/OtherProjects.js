@@ -6,7 +6,7 @@ import EmployeeManager from './Projects/EmployeeManager';
 import GymAssistant from './Projects/GymAssistant';
 import Helo from './Projects/Helo';
 import Houser from './Projects/Houser';
-import Shelfie from './Projects/Shelfie';
+import PicChat from './Projects/PicChat';
 
 const LatestWrapper = styled.div`
     height: fit-content;
@@ -31,12 +31,12 @@ class OtherProjects extends Component {
     render() {
         return (
             <LatestWrapper>
+                <PicChat />
                 <Oranges2Oranges />
                 <EmployeeManager />
                 <GymAssistant />
                 <Helo />
                 <Houser />
-                <Shelfie />
             </LatestWrapper>
         );
     }

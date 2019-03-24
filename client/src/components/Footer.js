@@ -46,6 +46,9 @@ const LinkItem = styled.div`
 const Link = styled.a`
     text-decoration: none;
     color: black;
+    :hover{
+        color: #c91717;
+    }
 `;
 
 const Footer = props => {

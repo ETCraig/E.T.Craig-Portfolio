@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ShelfiePng from '../../../assets/Screenshot (29).png';
+import ShelfiePng from '../../../assets/Screenshot (143).png';
 import LaptopPng from '../../../assets/download.png';
 
 const ShelfieWrapper = styled.div`
@@ -88,7 +88,7 @@ const LinkTag = styled.a`
 const Link = styled.button`
     width: 100px;
     padding: 5px 0;
-    background: #000;
+    background: #c91717;
     color: #fff;
     margin: 0 10px;
     font-family: Europa Bold,sans-serif;
@@ -210,24 +210,24 @@ const ProjectImage = styled.img`
     vertical-align: initial;
 `;
 
-const Shelfie = props => {
+const PicChat = props => {
     return (
         <ShelfieWrapper>
             <TitleWrapper>
-                <Title><h2>Shelfie</h2></Title>
+                <Title><h2>PicChat</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
-                <LinkTag><Link>Site</Link></LinkTag>
-                <LinkTag href="https://github.com/ETCraig/Shelfie-App" target="blank"><Link>Repo</Link></LinkTag>
+                <LinkTag href='https://fierce-waters-66786.herokuapp.com/' target='blank'><Link>Site</Link></LinkTag>
+                <LinkTag href="https://github.com/ETCraig/PicChat" target="blank"><Link>Repo</Link></LinkTag>
             </LinkWrapper>
             <DetailsWrapper>
                 <Description>
                     Shelfie allows the user to view four different Shelves each with four different bins containing a product with that products details, they can then view it, edit it, or delete and create a new item.
                 </Description>
                 <ListWrapper>
-                    <ListItems>To be or not to be</ListItems>
-                    <ListItems>It shmells like teen spirit</ListItems>
-                    <ListItems>This is the time</ListItems>
+                    <ListItems>React | Javascript | NodeJS | MongoDB | Stripe API | AWS | DataUri | Redux | Jwt | Bcrypt | Express | PropTypes | CSS Grid | HTML |</ListItems>
+                    <ListItems>Mobile friendly social Media app allowing users to view, like, comment, and save other users posts as well as create their own.</ListItems>
+                    <ListItems>Stripe enables users to create multiple payment options and use them to subscribe to other users.</ListItems>
                 </ListWrapper>
             </DetailsWrapper>
             <ImageWrapper>
@@ -240,4 +240,4 @@ const Shelfie = props => {
     );
 }
 
-export default Shelfie;
+export default PicChat;

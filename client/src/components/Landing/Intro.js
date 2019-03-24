@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Inntro = styled.div`
-    height: 800px;
+    height: 50vh;
     display: block;
     position: relative;
     z-index: 10;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     pointer-events: none;
     background-color: #F1F1F1;
     box-sizing: inherit;
@@ -123,7 +123,7 @@ const BckgCircle = styled.div`
     width: 105vw;
     height: 105vw;
     max-width: 120vh;
-    max-height: 120vh;
+    max-height: 116.5vh;
     right: -50px;
     position: absolute;
     transform: translateX(50%);
@@ -280,13 +280,10 @@ const Intro = props => {
                         <TextInner>
                             <TextContainer>
                                 <Text>
-                                    <TextLine2>Currently working at SideCoach and Bussy Human</TextLine2>
+                                    <TextLine2>Currently working as a Full Stack and Backend Developer for two local Startups.</TextLine2>
                                 </Text>
                             </TextContainer>
                             <BckgContainer>
-                                <BckgCircle>
-                                    <BckgCircleInner></BckgCircleInner>
-                                </BckgCircle>
                                 <ImgBackContainer>
                                     <ImgBackInner></ImgBackInner>
                                 </ImgBackContainer>

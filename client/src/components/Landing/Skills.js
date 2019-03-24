@@ -45,6 +45,9 @@ const ReactWrapper = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    :hover {
+        color: #c91717;
+    }
 `;
 
 const ReactIcon = styled.img`

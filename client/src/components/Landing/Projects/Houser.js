@@ -88,7 +88,7 @@ const LinkTag = styled.a`
 const Link = styled.button`
     width: 100px;
     padding: 5px 0;
-    background: #000;
+    background: #c91717;
     color: #fff;
     margin: 0 10px;
     font-family: Europa Bold,sans-serif;

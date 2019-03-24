@@ -88,7 +88,7 @@ const LinkTag = styled.a`
 const Link = styled.button`
     width: 100px;
     padding: 5px 0;
-    background: #000;
+    background: #c91717;
     color: #fff;
     margin: 0 10px;
     font-family: Europa Bold,sans-serif;
@@ -225,9 +225,9 @@ const EmployeeManager = props => {
                     Full stack application design for employers to manage and edit employee details. Uses the Vue.js framework and the Firebase Firestore cloud platform as the data store.
                 </Description>
                 <ListWrapper>
-                    <ListItems>Utilizes firebase.auth for authenticated routes</ListItems>
-                    <ListItems>Syncs up with Firebse once connected</ListItems>
-                    <ListItems>Operates without a connection</ListItems>
+                    <ListItems>Vue | Vue-Router | HTML5 | CSS3 | NodeJS | Express | Massive | Firebase | Javascript</ListItems>
+                    <ListItems>Application using the Vue.js framework and the Firebase Firestore cloud platform as the data store.</ListItems>
+                    <ListItems>Allows for logged in users to Create, Edit, and Delete listed employees.</ListItems>
                 </ListWrapper>
             </DetailsWrapper>
             <ImageWrapper>

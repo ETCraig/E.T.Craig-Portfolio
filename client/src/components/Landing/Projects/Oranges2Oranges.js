@@ -88,7 +88,7 @@ const LinkTag = styled.a`
 const Link = styled.button`
     width: 100px;
     padding: 5px 0;
-    background: #000;
+    background: #c91717;
     color: #fff;
     margin: 0 10px;
     font-family: Europa Bold,sans-serif;
@@ -132,6 +132,7 @@ const Description = styled.p`
 `;
 
 const ListWrapper = styled.ul`
+    max-width: 90%;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -226,9 +227,9 @@ const Oranges2Oranges = props => {
                     A group developed responsive game based on Apples to Apples. Built mobile-first in React and implementing other technologies including socket.io and redux.
                 </Description>
                 <ListWrapper>
-                    <ListItems>Fully responsive design</ListItems>
-                    <ListItems>Uses socket.io for web-socket communication</ListItems>
-                    <ListItems>Incorporates unique animations an music</ListItems>
+                    <ListItems>React | JSX | Javascript | HTML5 | NodeJS | CSS3 | Redux | Axios | PostgresSQL | Massive | Express | Web Sockets | Stripe | React-Sound</ListItems>
+                    <ListItems>Incorporates multiple CSS3 and dependency based animations throughout the application and is mobile friendly.</ListItems>
+                    <ListItems>Used Web Sockets to allow multiple users to play the same game together and see each others actions in real time.</ListItems>
                 </ListWrapper>
             </DetailsWrapper>
             <ImageWrapper>
