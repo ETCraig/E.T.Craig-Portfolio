@@ -14,7 +14,7 @@ const LatestWrapper = styled.div`
     overflow-x: hidden;
     padding: 3% 0;
     background: #F1F1F1;
-    background-image: url(/static/media/topo.bd5465e5.png);
+    background-image: url('http://www.whitefieldbc.com/wp-content/uploads/WBC-Graphics-Menu-BG-Geometric-White01.jpg');
     background-blend-mode: soft-light;
     display: flex;
     justify-content: center;

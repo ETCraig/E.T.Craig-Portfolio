@@ -9,7 +9,7 @@ const Inntro = styled.div`
     width: 100%;
     min-height: 50vh;
     pointer-events: none;
-    background-color: #F1F1F1;
+    background-image: url('http://www.whitefieldbc.com/wp-content/uploads/WBC-Graphics-Menu-BG-Geometric-White01.jpg');
     box-sizing: inherit;
     @media (max-width: 730px) {
         min-height: 60vh;
