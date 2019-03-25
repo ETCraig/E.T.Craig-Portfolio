@@ -259,7 +259,7 @@ const EmployeeManager = props => {
                 <Title><h2>Employee Manager</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
-                <LinkTag><Link>Site</Link></LinkTag>
+                {/* <LinkTag><Link>Site</Link></LinkTag> */}
                 <LinkTag href="https://github.com/ETCraig/Employee-Manager" target="blank"><Link>Repo</Link></LinkTag>
             </LinkWrapper>
             <DetailsWrapper>
