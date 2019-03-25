@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {Link} from 'react-router-dom';
-
 const NavContainer = styled.div`
     font-size: 16px;
     width: 100%;
@@ -69,12 +67,6 @@ const RightWrapper = styled.div`
     }
 `;
 
-const NavItemWrap = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-`;
-
 const NavItem = styled.h4`
     color: black;
     margin-right: 50px;
@@ -87,9 +79,7 @@ const NavItem = styled.h4`
 `;
 
 const NavBar = props => {
-    
-    
-    return(
+    return (
         <NavContainer>
             <NavWrapper>
                 <LeftWrapper>

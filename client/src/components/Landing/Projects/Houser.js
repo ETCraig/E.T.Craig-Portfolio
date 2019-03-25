@@ -257,7 +257,7 @@ const Houser = props => {
                 <Title><h2>Houser</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
-                <LinkTag><Link>Site</Link></LinkTag>
+                {/* <LinkTag><Link>Site</Link></LinkTag> */}
                 <LinkTag href="https://github.com/ETCraig/sim2-houser" target="blank"><Link>Repo</Link></LinkTag>
             </LinkWrapper>
             <DetailsWrapper>

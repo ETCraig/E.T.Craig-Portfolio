@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import Oranges2OrangesPng from '../../../assets/Screenshot (85).png';
 import LaptopPng from '../../../assets/laptop_PNG5887.png';
-import SitePng from '../../../assets/icons8-geography-24.png';
 
 const Oranges2OrangesWrapper = styled.div`
     min-height: 45vh;

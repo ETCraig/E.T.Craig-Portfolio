@@ -257,7 +257,7 @@ const GymAssistant = props => {
                 <Title><h2>Gym Assistant</h2></Title>
             </TitleWrapper>
             <LinkWrapper>
-                <LinkTag><Link>Site</Link></LinkTag>
+                {/* <LinkTag><Link>Site</Link></LinkTag> */}
                 <LinkTag href="https://github.com/ETCraig/GymAssistant-NotNative" target="blank"><Link>Repo</Link></LinkTag>
             </LinkWrapper>
             <DetailsWrapper>

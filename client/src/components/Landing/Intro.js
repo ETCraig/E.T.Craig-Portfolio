@@ -129,33 +129,6 @@ const BckgContainer = styled.div`
     box-sizing: inherit;
 `;
 
-const BckgCircle = styled.div`
-    top: -15%;
-    padding-top: 0;
-    width: 105vw;
-    height: 105vw;
-    max-width: 120vh;
-    max-height: 116.5vh;
-    right: -50px;
-    position: absolute;
-    transform: translateX(50%);
-    box-sizing: inherit;
-    display: block;
-`;
-
-const BckgCircleInner = styled.div`
-    background-color: rgb(192, 192, 192);
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    box-sizing: inherit;
-    display: block;
-`;
-
 const ImgBackContainer = styled.div`
     padding: 0;
     max-width: none;
@@ -178,65 +151,6 @@ const ImgWrapper = styled.div`
     justify-content: center;
     margin-top: -540px;
     justify-content: space-evenly;
-`;
-
-const Img1Div = styled.div`
-    min-height: 25vh;
-    width: 70%;
-    display: flex;
-    justify-content: row;
-    background-color: #FFF;
-    align-items: center;
-    margin: 10px 0;
-    box-shadow: 0 10px 16px -11px rgba(0,0,0,.2);
-    padding: 0;
-    border: 0;
-`;
-
-const Img2Div = styled.div`
-    min-height: 25vh;
-    width: 70%;
-    margin-top: 80px;
-    display: flex;
-    justify-content: row;
-    background-color: #FFF;
-    align-items: center;
-    margin: 40px 0;
-    box-shadow: 0 10px 16px -11px rgba(0,0,0,.2);
-    padding: 0;
-    border: 0;
-`;
-
-const Img = styled.img`
-    display: block;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    height: 140px;
-    width: 400px;
-    margin-left: 10px;
-    // top: 111px;
-    transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
-    // color: inherit;
-    // text-decoration: none;
-    // position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-`;
-
-const Img2 = styled.img`
-    display: block;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    height: 220px;
-    width: 300px;
-    // left: 775px;
-    margin-top: 0px;
-    transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
-    // color: inherit;
-    // text-decoration: none;
-    // position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
 `;
 
 const Border = styled.div`
@@ -264,23 +178,6 @@ const BorderInner = styled.div`
     z-index: 2;
     box-sizing: inherit;
     display: block;
-`;
-
-const AboutMeTextWrapper = styled.div`
-    align-items: center;
-    justify-content: center;    
-    max-width: 500px;
-    font-size: 14px;
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    line-height: 1.63;
-    letter-spacing: 0;
-`;
-
-const AboutMeText = styled.p`
-    font-size: 1.2em;
-    line-height: 200%;
-    text-align: center;
 `;
 
 const Intro = props => {

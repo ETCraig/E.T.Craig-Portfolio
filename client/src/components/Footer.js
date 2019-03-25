@@ -27,10 +27,11 @@ const FooterDir = styled.div`
 `;
 
 const LeftFooter = styled.div`
-@media(max-width: 550px) {
-    font-size: 10px;
-    margin-top: -28px;
-}
+    color: #c91717;
+    @media(max-width: 550px) {
+        font-size: 10px;
+        margin-top: -28px;
+    }
 `;
 
 const RightFooter = styled.div`

@@ -30,6 +30,7 @@ const LatestTitle = styled.h3`
 `;
 
 const Description = styled.div`
+    color: #c91717;
     font-size: 14px;
     font-family: Montserrat;
     font-weight: 400;
