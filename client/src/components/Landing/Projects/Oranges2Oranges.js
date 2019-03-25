@@ -20,6 +20,17 @@ const Oranges2OrangesWrapper = styled.div`
     font: inherit;
     vertical-align: initial;
     font-family: 'Ubuntu', sans-serif;
+    @media(max-width: 1380px) {
+        width: 80%
+        min-height: 85vh;
+        flex-direction: column;
+    }
+    @media(max-width: 633px) {
+        min-height: 90vh;
+    }
+    @media(max-width: 606px) {
+        min-height: 100vh;
+    }
 `;
 
 const TitleWrapper = styled.div`
@@ -72,6 +83,15 @@ const LinkWrapper = styled.div`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    @media(max-width: 606px) {
+        flex-direction: column;
+    }
+    @media(max-width: 529px) {
+        left: 180px;
+    }
+    @media(max-width: 443px) {
+        left: 155px;
+    }
 `;
 
 const LinkTag = styled.a`
@@ -99,6 +119,9 @@ const Link = styled.button`
     align-items: flex-start;
     text-align: center;
     box-sizing: border-box;
+    @media(max-width: 443px) {
+        width: 50px
+    }
 `;
 
 const DetailsWrapper = styled.div`
@@ -117,8 +140,8 @@ const DetailsWrapper = styled.div`
 `;
 
 const Description = styled.p`
-    word-wrap: break-word;
-    width: 600px;
+    // word-wrap: break-word;
+    max-width: 600px;
     font-size: 1.2em;
     margin-bottom: 3%;
     line-height: 170%;
@@ -132,6 +155,7 @@ const Description = styled.p`
 `;
 
 const ListWrapper = styled.ul`
+    max-width: 640px;
     max-width: 90%;
     list-style: none;
     margin: 0;
@@ -185,6 +209,14 @@ const ImageContainer = styled.div`
     font: inherit;
     vertical-align: initial;
     right: 50px;
+    @media(max-width: 1380px) {
+        right: 0px;
+        top: 10px;
+    }
+    @media(max-width: 378px) {
+        right: 0px;
+        top: 0px;
+    }
 `;
 
 const ImageFirst = styled.img`
@@ -196,6 +228,10 @@ const ImageFirst = styled.img`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    @media(max-width: 498px) {
+        width: 300px;
+        height: 220px;
+    }
 `;
 
 const ProjectImage = styled.img`
@@ -210,6 +246,12 @@ const ProjectImage = styled.img`
     font-size: 100%;
     font: inherit;
     vertical-align: initial;
+    @media(max-width: 498px) {
+        top: 7px;
+        left: 6px;
+        width: 289px;
+        height: 172.5px;
+    }
 `;
 
 const Oranges2Oranges = props => {

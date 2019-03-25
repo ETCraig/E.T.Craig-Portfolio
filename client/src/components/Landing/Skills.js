@@ -29,18 +29,27 @@ const SkillsWrapper = styled.div`
     font: inherit;
     vertical-align: initial;
     background-color: white;
+    @media(max-width: 910px) {
+        height: 42vh;
+    }
+    @media(max-width: 490px) {
+        height: 50vh;
+    }
+    @media(max-width: 370px) {
+        height: 90vh;
+    }
 `;
 
 const ReactWrapper = styled.div`
     width: 50px;
     min-width: 50px;
-    height: 50%;
+    height: 30%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-end;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 10px;
     border: 0;
     font-size: 100%;
     font: inherit;

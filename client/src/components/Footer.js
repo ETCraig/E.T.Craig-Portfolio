@@ -27,13 +27,19 @@ const FooterDir = styled.div`
 `;
 
 const LeftFooter = styled.div`
-
+@media(max-width: 550px) {
+    font-size: 10px;
+    margin-top: -28px;
+}
 `;
 
 const RightFooter = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media(max-width: 550px) {
+        justify-content: space-around;
+    }
 `;
 
 const LinkItem = styled.div`
