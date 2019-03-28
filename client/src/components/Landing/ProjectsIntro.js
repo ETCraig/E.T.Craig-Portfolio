@@ -12,7 +12,6 @@ const LatestWrapper = styled.div`
     justify-content: center;
     background-color: #F1F1F1;
     font-size: 16px;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 1.63;
     letter-spacing: 0;
@@ -22,7 +21,7 @@ const LatestTitle = styled.h3`
     color: #454545;
     font-size: 2.94em;
     font-weight: 700;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
     line-height: 1.06;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -32,12 +31,12 @@ const LatestTitle = styled.h3`
 
 const Description = styled.div`
     color: #c91717;
-    font-size: 14px;
+    font-size: 18px;
     font-family: Montserrat;
     font-weight: 400;
     line-height: 1.63;
     letter-spacing: 0;
-    font-family: 'Lora', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 `;
 
 const ProjectsIntro = props => {

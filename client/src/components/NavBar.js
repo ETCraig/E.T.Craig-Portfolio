@@ -40,7 +40,7 @@ const TittleWrapper = styled.div`
     padding: 0;
 `;
 const NameTitle = styled.h1`
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
     font-size: 22px;
     line-height: 26.08px;
     word-spacing: 0px;
@@ -68,6 +68,7 @@ const RightWrapper = styled.div`
 `;
 
 const NavItem = styled.h4`
+    font-family: 'Proza Libre', sans-serif;
     color: black;
     margin-right: 50px;
     &:hover {

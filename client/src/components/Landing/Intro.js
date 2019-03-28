@@ -102,7 +102,7 @@ const TextLine2 = styled.span`
     white-space: pre-line;
     font-size: 56px;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
     letter-spacing: -.03em;
     line-height: 1.07143;
     box-sizing: inherit;

@@ -17,6 +17,7 @@ import PostManPng from '../../assets/postman-icon.png';
 
 
 const SkillsWrapper = styled.div`
+    font-family: 'Proza Libre', sans-serif;
     height: 30vh;
     display: flex;
     justify-content: space-evenly;

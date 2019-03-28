@@ -12,10 +12,11 @@ const AboutMeWrapper = styled.div`
     justify-content: center;
     background-color: white;
     font-size: 16px;
-    font-family: 'Lora', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400;
     line-height: 1.63;
     letter-spacing: 0;
+    padding: 35px;
 `;
 
 const ProImage = styled.img`
